@@ -1,13 +1,14 @@
+// Seleccionamos los elementos
 const carrito = document.getElementById('carrito');
 const listaCarrito = document.querySelector('#lista-carrito tbody');
 const vaciarCarritoBtn = document.getElementById('vaciar-carrito');
 const listaProductos = document.getElementById('lista-1');
 
-
-
+// Cargar los eventos
 document.addEventListener('DOMContentLoaded', cargarEventos);
 
-function cargarEventos() {    // Agregar producto al carrito
+function cargarEventos() {
+    // Agregar producto al carrito
     listaProductos.addEventListener('click', agregarProducto);
 
     // Vaciar el carrito
@@ -23,7 +24,6 @@ function agregarProducto(e) {
         leerDatosProducto(producto);
     }
 }
-
 
 // Leer los datos del producto
 function leerDatosProducto(producto) {
@@ -47,7 +47,6 @@ function insertarCarrito(producto) {
     `;
     listaCarrito.appendChild(row);
 }
-
 
 // Vaciar el carrito
 function vaciarCarrito() {

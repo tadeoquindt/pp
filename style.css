@@ -89,9 +89,10 @@ p{
 
 
 
+
 .submenu{
  position: relative;
-
+ 
 }
 
 .submenu #carrito{
@@ -284,7 +285,7 @@ h2 {
 
 .text-right{
   flex:1
-  text-align: left;
+  
 
 
 
@@ -292,7 +293,6 @@ h2 {
 
 .text-left{
   flex:1
-  text-align: right;
 
 
 }
@@ -338,7 +338,57 @@ h2 {
  justify-content:center;
  align-items: center;
  margin-top: 20px ;
+ 
 }
+
+
+
+.tor h9{
+  text-align: center;
+  color:#fefcdb;
+  font-size: 50px;
+  
+
+
+
+}
+
+.freya img {
+  display: block;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.freya {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.freya p {
+ font-size: 30px;
+ color: #fefcfb;
+ text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 .products{
  padding:50px 0;
@@ -348,14 +398,14 @@ h2 {
 }
 
 
-.products h8 {
+.products h9 {
 
-  color: #fefcfb;
+  color: black ;
   font-family: "oswald",sans-serif;
   font-size: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-top: 95px;
 }
 
 
@@ -363,7 +413,7 @@ h2 {
   display:grid;
   grid-template-columns: repeat(2,1fr);
   gap:50px;
-  margin-top: 20px;
+  margin-top: 170px;
   
 }
 
@@ -377,61 +427,3 @@ color: #fffdfc;
 
 
 
-
-.footer{
- padding: 100px 0 0 0;
-}
-
-.footer-content{
-  display:flex;
-}
-
-.footer h10{
-color: #fffdfc;
-font-size: 50px;
-margin: 0 100px 20px 0;
-
-}
-
-.footer-form{
- width:50%;
-}
-
-.footer-txt{
- width:50%;
- 
-
-}
-
-
-footer{
- display:flex;
- width:350px;
- flex-direction:column;
- margin-left:2
-}
-
-.campo {
- background-color: #201f23;
- padding: 17px 35px;
- outline: none;
- color: #e7e7e7;
- border:0;
- margin-bottom: 10px;
-}
-
-
-.campo::placeholder{
- color: #e7e7e7;
-}
-
-.btn-3{
-padding:17px 35px;
-border:2px solid #b7975b;
-background-color: #b7975b;
-color:#fffdfc;
-border-radius: 25px;
-text-transform: uppercase;
-
-
-}
